@@ -50,9 +50,7 @@ function rss_grab_cron_time( $schedules ) {
 
 
 
-/*function db_crontest_deactivate() {
-    wp_unschedule_event( wp_next_scheduled( 'rss_graber_cron' ), 'rss_graber_cron' );
-}*/
+
 
 function rss_grab_cron_remove() {
     wp_unschedule_event( wp_next_scheduled( 'rss_graber_cron' ), 'rss_graber_cron' );
